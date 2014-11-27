@@ -27,6 +27,6 @@ def find_average(input_bed):
         transcript_exons[gene_name].append(exon_length)
 
     for key, value in transcript_exons.iteritems():
-        transcript_exons[key]= np.mean(value)
+        transcript_exons[key]= int(np.mean(value))
 
-    return trnanscript_exons
+    return dict(transcript_exons)

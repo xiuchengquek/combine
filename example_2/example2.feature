@@ -13,5 +13,5 @@ Scenario Outline: Add two numbers
     | value_a | value_b | value_c |
     | 10      | 20      | 30      |
     | -10     | 20      | 10      |
-    | 10      | -20     | 10      |
+    | 10      | -20     | -10     |
     | -10     | -30     | -40     |
